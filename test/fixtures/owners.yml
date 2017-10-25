@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ime: MyString
+  string: MyString
+  prezime: MyString
+  string: MyString
+  brojlk: MyString
+  number: MyString
+
+two:
+  ime: MyString
+  string: MyString
+  prezime: MyString
+  string: MyString
+  brojlk: MyString
+  number: MyString

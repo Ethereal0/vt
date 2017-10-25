@@ -1,0 +1,16 @@
+<h1>Add Car</h1>
+
+<%= form_for :carovi, url: cars_path do |c| %>
+    <p> 
+        <%= c.label :brand %> <br>
+        <%= c.text_field :model %>
+    </p>
+
+    <p>
+        <%= c.label :reg %><br>
+        <%= c.text_area :reg %>
+    </p>
+    <p>
+        <%= c.submit %>
+    </p>
+<% end %>
